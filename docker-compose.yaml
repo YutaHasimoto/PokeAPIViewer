@@ -1,12 +1,5 @@
-version: '3'
-
 services:
   web:
     build: .
     ports:
       - "3000:3000"
-    networks:
-      - e2e
-
-networks:
-  e2e:
